@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{hamlize_views}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Zeke Sikelianos"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = %q{zeke@sikelianos.com}
   s.executables = ["hamlize_views"]
   s.extra_rdoc_files = ["README.textile", "LICENSE"]
-  s.files = ["README.textile", "bin/hamlize_views", "lib/hamlize_views.rb", "spec/hamlize_views_spec.rb", "spec/spec_helper.rb", "LICENSE"]
+  s.files = ["README.textile", "VERSION.yml", "bin/hamlize_views", "lib/hamlize_views.rb", "spec/hamlize_views_spec.rb", "spec/spec_helper.rb", "LICENSE"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/zeke/hamlize_views}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
