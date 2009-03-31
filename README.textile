@@ -1,7 +1,29 @@
-= hamlize_views
+h1. hamlize_views
 
-Description goes here.
+This ruby gem uses the html2haml command line utility to convert rails' ERB view files to HAML.
 
-== Copyright
+h2. Installation
+
+<code>
+  gem sources -a http://gems.github.com
+  sudo gem install haml
+  sudo gem install zeke-hamlize_views
+</code>
+
+h2. Usage
+
+<code>
+  $ cd /path/to/rails_app/
+  $ hamlize_views # Creates HAMLized versions of all app/views/**/*.erb files
+  $ hamlize_views app/views/my_model # Directory specific conversion
+</code>
+
+h2. Todo
+
+* Account for non-HTML Rails scaffold view stuff like > and "
+* Provide a flag for deletion of the original .erb files
+* Add an option to update references to converted files in rspec view tests
+
+h2. Copyright
 
 Copyright (c) 2009 Zeke Sikelianos. See LICENSE for details.

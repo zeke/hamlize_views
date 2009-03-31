@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'hamlize_views'
+
+if ARGV.empty?
+  puts
+  puts "Usage: hamlize_views path/to/views/"
+  puts "A new hamlized '.html.haml' file will be created for each '.html.erb' file within the path."
+  puts
+else
+  path = ARGV.shift
+  HamlizeViews.new(path).convert!
+end

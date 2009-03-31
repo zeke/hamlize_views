@@ -5,11 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "hamlize_views"
-    gem.summary = %Q{TODO}
+    gem.summary = "This ruby gem uses the html2haml command line utility to convert ERB view files to HAML."
     gem.email = "zeke@sikelianos.com"
     gem.homepage = "http://github.com/zeke/hamlize_views"
     gem.authors = ["Zeke Sikelianos"]
-
+    gem.add_dependency "haml"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
