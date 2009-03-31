@@ -15,8 +15,8 @@ h2. Usage
 
 <pre><code>
   $ cd /path/to/rails_app/
-  $ hamlize_views # Creates HAMLized versions of all app/views/**/*.erb files
-  $ hamlize_views app/views/my_model # Directory specific conversion
+  $ hamlize_views # Displays usage
+  $ hamlize_views app/views/my_model # Creates HAMLized versions of all app/views/my_model/*.html.erb files
 </code>
 </pre>
 
