@@ -4,19 +4,21 @@ This ruby gem uses the html2haml command line utility to convert rails' ERB view
 
 h2. Installation
 
-<code>
+<pre><code>
   gem sources -a http://gems.github.com
   sudo gem install haml
   sudo gem install zeke-hamlize_views
 </code>
+</pre>
 
 h2. Usage
 
-<code>
+<pre><code>
   $ cd /path/to/rails_app/
   $ hamlize_views # Creates HAMLized versions of all app/views/**/*.erb files
   $ hamlize_views app/views/my_model # Directory specific conversion
 </code>
+</pre>
 
 h2. Todo
 
