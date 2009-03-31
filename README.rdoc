@@ -1,0 +1,7 @@
+= hamlize_views
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Zeke Sikelianos. See LICENSE for details.
